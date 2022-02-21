@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("api/v1/fraud-check")
 @AllArgsConstructor
 @Slf4j
-public class FraudController {
+public class FraudController<FraudCheckResponse> {
     
     private final FraudCheckService fraudCheckService;
 

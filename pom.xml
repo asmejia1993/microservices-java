@@ -17,6 +17,7 @@
   <modules>
     <module>customer</module>
     <module>fraud</module>
+    <module>eureka-server</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,6 +28,7 @@
     <spring.cloud-version>2020.0.3</spring.cloud-version>
     <image>asmejiaservices/${project.artifactId}:${project.version}</image>
   </properties>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -45,6 +47,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  
   <dependencies>
     <dependency>
       <groupId>org.projectlombok</groupId>
