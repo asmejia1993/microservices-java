@@ -1,0 +1,19 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: customer
+    datasource:
+        username: 'root'
+        password: 'admin'
+        url: jdbc:mysql://localhost:3307/customer
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa: 
+        database-platform: org.hibernate.dialect.MySQL8Dialect
+        hibernate:
+            ddl-auto: create
+        properties:
+            hibernate:
+                format_sql: true
+        show-sql: true
+        generate-ddl: true

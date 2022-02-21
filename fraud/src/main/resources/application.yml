@@ -1,0 +1,10 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: fraud
+        data:
+            mongo:
+                host: mongo_db
+                port: 27017
+                database: fraud
